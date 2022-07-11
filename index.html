@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Metas -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomotodo - Planifier et executer vos taches avec un timer</title>
+    <meta name="description"
+        content="Pomotodo - Planifiez vos taches de la journee et commencer a les executees en suivant la methode Pomodoro">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/et-line.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="assets/css/owl.transitions.css">
+    <link rel="stylesheet" href="assets/css/plyr.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400%7CUbuntu:400,700%7COpen+Sans" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/site.webmanifest">
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <div class="loader-wrap" id="loader-wrap">
+        <div class="cssload-loader"></div>
+    </div>
+    <!-- Preloader End -->
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default" data-spy="affix" data-offset-top="60">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#navbar-collapse" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <!-- <img src="images/logo.png" alt="Site Logo"> -->
+                    POMODORO
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right" id="one-page-nav">
+                    <li><a href="#banner">Accueil</a></li>
+                    <li><a href="#feature">Fonctionnalites</a></li>
+                    <li><a href="#screenshot">Screenshot</a></li>
+                    <li><a href="#download">Telecharger</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!-- Navigation End -->
+
+    <!-- Banner Area -->
+    <div id="banner" class="banner">
+        <div class="banner-item banner-1 steller-parallax" data-stellar-background-ratio="0.5">
+            <div class="banner-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <div class="banner-text-content">
+                                <h1 class="banner-title">Planifier et executer vos taches avec un timer</h1>
+                                <p class="banner-text">Disponible sur Google Play</p>
+                                <div class="button-group">
+                                    <a class="btn btn-lg btn-border" href="#feature">
+                                        <i class="fa fa-play"></i>
+                                        En savoir plus
+                                    </a>
+                                    <a class="btn btn-lg btn-download"
+                                        href="https://play.google.com/store/apps/details?id=com.vanotis720.pomotodo">
+                                        <i class="fa fa-android"></i> Play Store
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5 hidden-sm hidden-xs">
+                            <div class="mock right-style">
+                                <img class="back-mock wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="1s"
+                                    src="images/mocks/banner-mock-back.png" alt="mock back">
+                                <img class="front-mock wow fadeInUp" data-wow-duration="1.5s"
+                                    src="images/mocks/banner-mock-front.png" alt="mock front">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Banner Area End -->
+
+    <div class="main-wrap">
+        <!-- Intro Section -->
+        <div class="section section-padding">
+            <div class="container">
+                <div class="intros">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="intro-item wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0s">
+                                <div class="intro-icon">
+                                    <span class="icon-layers"></span>
+                                </div>
+                                <h4 class="intro-title">Planifier vos tâches</h4>
+                                <p class="intro-content">
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="intro-item wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.5s">
+                                <div class="intro-icon">
+                                    <span class="icon-tools-2"></span>
+                                </div>
+                                <h4 class="intro-title">Exécuter en suivant un timer</h4>
+                                <p class="intro-content">
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="intro-item wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1s">
+                                <div class="intro-icon">
+                                    <span class="icon-speedometer"></span>
+                                </div>
+                                <h4 class="intro-title">Traquer votre productivité grâce aux statistiques</h4>
+                                <p class="intro-content">
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Intro section end -->
+
+        <!-- Features -->
+        <div id="feature" class="section section-padding offwhite-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3 col-xs-12">
+                        <div class="section-header text-center">
+                            <h3 class="section-title">Fonctionnalites</h3>
+                            <p class="section-subtext">
+                                Notre application de productivité inclues
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="feature wow fadeInUp" data-wow-duration="1.5s">
+                            <div class="feature-icon">
+                                <span class="icon-layers"></span>
+                            </div>
+                            <div class="feature-content">
+                                <h4 class="feature-title">Todo list</h4>
+                                <p>
+                                    Découpe ton projets en une liste des tâches à exécuter
+                                </p>
+                            </div>
+                        </div>
+                        <div class="feature wow fadeInUp" data-wow-duration="1.5s">
+                            <div class="feature-icon">
+                                <span class="icon-speedometer"></span>
+                            </div>
+                            <div class="feature-content">
+                                <h4 class="feature-title">Minuteur Pomodoro</h4>
+                                <p>
+                                    Le minuteur pomodoro vous donnes 25 minutes pour executer une tache, 5 minutes de
+                                    repos entre chaque tache et 15' de
+                                    repos long apres 3 taches consecutives
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 text-center hidden-sm hidden-xs">
+                        <div class="mock wow fadeInUp" data-wow-duration="1.5s">
+                            <img class="img-responsive" src="images/mocks/1.png" alt="...">
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="feature wow fadeInUp" data-wow-duration="1.5s">
+                            <div class="feature-icon">
+                                <span class="icon-speedometer"></span>
+                            </div>
+                            <div class="feature-content">
+                                <h4 class="feature-title">Statistiques de productivité</h4>
+                                <p>
+                                    Suivez votre productivité avec des statistiques quotidiennes, hebdomadaires,
+                                    mensuelles et annuelles
+                                </p>
+                            </div>
+                        </div>
+                        <div class="feature wow fadeInUp" data-wow-duration="1.5s">
+                            <div class="feature-icon">
+                                <span class="icon-trophy"></span>
+                            </div>
+                            <div class="feature-content">
+                                <h4 class="feature-title">Nombre des tâches illimités</h4>
+                                <p>Planifiez et exécutez un nombre illimité de tâches gratuitement</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Features End -->
+
+        <!--------------- Screenshot --------------->
+        <div id="screenshot" class="section section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3 col-xs-12">
+                        <div class="section-header text-center">
+                            <h2 class="section-title">Screenshots</h2>
+                            <p class="section-sub">Des interfaces belles et intuitives qui vous donneront envie
+                                d'utiliser l'application</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="screen-mock"></div>
+                        <div class="screenshot-wrap">
+                            <div class="owl-carousel screenshot-carousel" id="screenshot-carousel">
+                                <img src="images/screenshot/1.jpg" alt="App Screenshot">
+                                <img src="images/screenshot/2.jpg" alt="App Screenshot">
+                                <img src="images/screenshot/3.jpg" alt="App Screenshot">
+                                <img src="images/screenshot/4.jpg" alt="App Screenshot">
+                                <img src="images/screenshot/5.jpg" alt="App Screenshot">
+                                <img src="images/screenshot/1.jpg" alt="App Screenshot">
+                                <img src="images/screenshot/2.jpg" alt="App Screenshot">
+                                <img src="images/screenshot/3.jpg" alt="App Screenshot">
+                                <img src="images/screenshot/4.jpg" alt="App Screenshot">
+                                <img src="images/screenshot/5.jpg" alt="App Screenshot">
+                                <img src="images/screenshot/1.jpg" alt="App Screenshot">
+                                <img src="images/screenshot/2.jpg" alt="App Screenshot">
+                                <img src="images/screenshot/3.jpg" alt="App Screenshot">
+                                <img src="images/screenshot/4.jpg" alt="App Screenshot">
+                                <img src="images/screenshot/5.jpg" alt="App Screenshot">
+                                <img src="images/screenshot/1.jpg" alt="App Screenshot">
+                                <img src="images/screenshot/2.jpg" alt="App Screenshot">
+                                <img src="images/screenshot/3.jpg" alt="App Screenshot">
+                                <img src="images/screenshot/4.jpg" alt="App Screenshot">
+                                <img src="images/screenshot/5.jpg" alt="App Screenshot">
+                                <img src="images/screenshot/1.jpg" alt="App Screenshot">
+                                <img src="images/screenshot/2.jpg" alt="App Screenshot">
+                                <img src="images/screenshot/3.jpg" alt="App Screenshot">
+                                <img src="images/screenshot/4.jpg" alt="App Screenshot">
+                                <img src="images/screenshot/5.jpg" alt="App Screenshot">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Screenshot end -->
+
+        <!-- Download -->
+        <div id="download" class="section section-padding bottom-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3 col-xs-12">
+                        <div class="section-header text-center wow fadeInDown" data-wow-duration="1.5s">
+                            <h3 class="section-title">Telecharger Maintenant</h3>
+                            <p class="section-subtext">Intéressé ? n'hésitez pas à le télécharger, profitez-en et
+                                n'oubliez pas de nous donner une note positive</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 text-center">
+                        <div class="button-group wow fadeInUp" data-wow-duration="1.5s">
+                            <a class="btn btn-lg btn-download"
+                                href="https://play.google.com/store/apps/details?id=com.vanotis720.pomotodo">
+                                <i class="fa fa-android"></i> Play Store
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Download End -->
+    </div>
+
+    <footer>
+        <!-- Footer logo and social media button -->
+        <div class="logo-social-area section-padding">
+            <div class="container text-center">
+                <a class="logo logo-footer wow fadeInDown" data-wow-duration="1.5s" href="#">
+                    <!-- <img src="images/logo-footer.png" alt="Site Logo"> -->
+                    POMOTODO
+                </a>
+                <div class="socials wow fadeInUp" data-wow-duration="1.5s">
+                    <a href="https://www.linkedin.com/company/codelab-drc"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://web.facebook.com/codelab243"><i class="fa fa-facebook"></i></a>
+                    <a href="https://twitter.com/codingLab5"><i class="fa fa-twitter"></i></a>
+                    <a href="https://github.com/vanotis720/Pomotodo"><i class="fa fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- Footer logo and social media button -->
+
+        <!-- Footer copyrgiht and navigation -->
+        <div class="copyright-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-xs-12">
+                        <p class="copyright">
+                            Copyright © 2022 <a href="https://codelabdrc.com">CodeLab</a>. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-6 col-xs-12">
+                        <ul class="footer-nav">
+                            <li><a href="https://www.privacypolicies.com/live/09d9e3cb-87e3-4fac-a91a-5ae263943a54">Politique
+                                    de confidentialité</a></li>
+                            <li><a href="https://blog.vanotis720.tech/">Developer Blog</a></li>
+                            <!-- <li><a href="#">FAQ</a></li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer copyrgiht and navigation -->
+    </footer>
+
+    <!-- Script -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.nav.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/jquery.localScroll.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/owl.carousel.js"></script>
+    <script src="assets/js/plyr.js"></script>
+    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+    <script src="assets/js/jquery.stellar.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAmiJjq5DIg_K9fv6RE72OY__p9jz0YTMI"></script>
+    <script src="js/map.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
